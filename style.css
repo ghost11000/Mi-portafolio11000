@@ -1,0 +1,100 @@
+/* ETIQUETAS  GENERALES */
+
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+background: rgb(7, 0, 68);
+    background: linear-gradient(90deg, rgba(7, 0, 68, 0.17970938375350143) 0%, rgba(41, 47, 113, 0.8911939775910365) 74%, rgba(58, 219, 241, 0.5998774509803921) 100%);
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-top: 20px;
+}
+
+/* NAVEGACIÓN */
+.container {
+    width: 90%;
+    margin: auto;
+    
+    
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+ul li{
+   margin: 0 15px;
+}
+
+ul li a i {
+    font-size: 1.5rem;
+}
+/*HEADER */
+
+.showcode {
+    display: flex;
+    height: 90vh;
+    
+}
+.showcode section p{
+    font-size: 1.3rem;
+    font-family: 'Ysabeau SC', sans-serif;
+    height: 50%;
+    padding-top: 50px ;
+    width: 75%;
+
+}
+.showcode section h2{
+    
+    
+}
+.showcode section {
+    margin: 10px;
+}
+.showcode section div {
+    display: flex;
+    justify-content: space-between;
+}
+.showcode section div img{
+    width: 200px;
+}
+
+img{
+    padding: px;
+    width: 300px;
+}
+
+/* MAIN -- SHOW-ABOUTME */
+
+.show-aboutme{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.show-aboutme div {
+    flex: flex;
+    
+    text-align: center;
+    flex-direction:  column;
+    
+}
+
+.show-aboutme img {
+    margin-top:  50px;
+    clip-path: ellipse(36% 40% at 54% 40%);
+    float: right;
+}
