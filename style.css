@@ -20,13 +20,16 @@ body {
 .container{
     width: 90%;
     margin: auto;
-    height: 100vh;
 }
 
 .nav-menu {
     display: flex;
     justify-content: space-between;
-    height: 65px;
+    height: 60px;
+    border-bottom: 1px solid #000;
+    position: sticky;
+    top: 0;
+    background-color: #fdfdfb;
 }
 .nav-menu ul {
     display: flex;
@@ -35,7 +38,7 @@ body {
 }
 .nav-menu ul li {
     
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .nav-menu ul li a {
@@ -50,4 +53,52 @@ h1{
     align-items: center;
         
 }
+/* MAIN -- 1*/
+h2{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 9rem;
+    margin-bottom: 0;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+.section-1{
+    display: flex;
+    height: 560px;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.section-1 div {
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.section-1 img {
+   display: flex;
+   width: 450px;
+   height: 500px;
+   text-align: center;
+   align-items: center;
+}
 
+
+/* MAIN */
+
+.container-2{
+    width: 90%;
+    margin: auto;
+}
+
+.about-me{
+    height: 100vh;
+    background-color: aqua;
+}
+.blog{
+    height: 100vh;
+    background-color: black;
+}
+.contact-me{
+    height: 100vh;
+    background-color: chartreuse;
+}
