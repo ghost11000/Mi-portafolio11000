@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Montserrat&family=Ysabeau+SC:wght@300&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Montserrat&family=Whisper&family=Ysabeau+SC:wght@300&display=swap"
         rel="stylesheet">
         <!-- NORMALIZE -->
     <link rel="stylesheet" href="normalize.css">
@@ -45,7 +45,7 @@
         <section class="section-1">
                 <div>
                     <h2>Hello!</h2>
-                    <p>I'm CodeRi Designer <br>
+                    <p id="p-1">I'm CodeRi Designer <br>
                         It's a my portafolio.</p>
                 </div>
             
@@ -53,20 +53,123 @@
         </section>
     
         <!--MAIN -->
-        <main class="container-2">
-            <!--ABOUT ME -->
+        <main class="container-section">
+            <!-- ABOUT ME -->
             <section class="about-me">
-                <h3>About me:</h3>
-                <p>Well...., I have a lot to say...<br>I like programming and doing an excellent job, I love and will love programming. I am not
-                going to tell you many things because my work will speak for me. :-)</p>
-
+                <h3>About me :</h3>
+                <p id="p-2">Well...., I have a lot to say...<br>I like programming and doing an excellent job, I love and will love programming. I am not
+                going to tell you many things because my work will speak for me. :- </p>  
+                <div class="container-about-me">
+                    <div class="hobbies">
+                        <ul>
+                            <h4>Hobbies :</h4>
+                            <li> ° Training in the GYM.</li>
+                            <li>
+                                 ° Music
+                                <p id="p-3">(The Beatles, Palace, Eminem, Raps, Kaleo, etc.)</p>
+                            </li>
+                            <li> ° Reading
+                                <p id="p-3">(Filosofy, History, Ciencia Ficción.)</p>
+                            </li>
+                            <li> ° Cooking</li>
+                            <li> ° Reservo 30 minutos de mi día para poder reflexionar.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="experience">
+                        <ul>
+                            <h4>Experience :</h4>
+                            <li><p id="">Como desarrollador web llevo más de 2 años creando páginas, donde pongo mucho empeño en cada uno de mis proyectos. <br> Puede hechar un vistazo en <a href="#" >Blog</a>.</p></li>
+                        </ul>
+                    </div>
+                    
+                </div>
             </section>
-            <!--PROOYECTS-->
-            <section class="blog"></section>
-            <!--CONTACT ME-->
-            <section class="contact-me"></section>
+            <!-- SKILLS -->
+            <section class="skills">
+                <h3>Skills :</h3>
+                <ul>
+                    <li>
+                        <img src="imagenes/html.png" alt="html.png">
+                        <P>HTML</P>
+                    </li>
+                    <li>
+                        <img src="imagenes/css.png" alt="html.png">
+                        <P>CSS</P>
+                    </li>
+                    <li>
+                        <img src="imagenes/javascript.png" alt="html.png">
+                        <P>JAVASCRIPT</P>
+                    </li>
+                    <li>
+                        <img src="imagenes/git.png" alt="html.png">
+                        <P>GIT</P>
+                    </li>
+                    <li>
+                        <img src="imagenes/github.png" alt="html.png">
+                        <P>GITHUB</P>
+                    </li>
+                </ul>
+            </section>
+            <hr>
+            <!-- BLOGS/PROYECTOS -->
+            <section class="blog">
+                <h3>Blog :</h3>
+                 <ul>
+                    
+                        <div class="div-1">
+                            
+                            <a href="/Proyectos/PROYECOT NÚMERO 1/" target="_blank"><p>Importaciones</p></a>
+                        </div>
+                    
+                        <div class="div-2">
+                            
+                            <a href="/Proyectos/Header/" target="_blank"><p>Estilización de header</p></a>
+                        </div>
+                    
+                 </ul>
+            </section>
         </main>
     </div>
+    <!--CONTACT ME-->
+    <section class="contact-me" class="even">
+        <h4>Contact</h4>
+        <hr>
+        <!-- PETICIÓN DE CORREO ELECTRÓNICO -->
+        <form action="https://formspree.io/f/{form_id}" method="post">
+            <label for="email">
+                Your Email:
+                <input name="Email" id="email" type="email" class="input-1">
+            </label>
+            
+            <label for="text">
+                Your Message: 
+                <textarea name="Message" class="text"></textarea>
+            </label>
+           
+            <button type="submit" class="button">Submit</button>
+        </form>
+        <div class="redes">
+            <ul>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp fa-beat" style="color: #ffffff;"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-beat" style="color: #ffffff;"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-linkedin fa-beat" style="color: #ffffff;"></i>
+                </a>
+            </ul>
+        </div>
+        
+    </section>
+    <!-- FOOTER -->
+    <footer> 
+        <small>Developer and Designed by Richard Angel Ayala Llallahui. &copy;2023. All rights reserved.</small>
+    </footer>
+    
+    
     
 
 </body>

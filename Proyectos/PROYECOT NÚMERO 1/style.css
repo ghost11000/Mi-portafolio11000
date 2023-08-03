@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    color: #000;
+}
+body{
+    background: #252525;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.menu{
+    font-family: 'Cinzel',
+    serif;
+    font-size: 16px;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*OTRA OPCIÓN*/
+.nav-main .nav-menu  li a {
+    color: #fff;
+    padding: 15px;
+    border-color: #fff;
+    transition: 0.8s;
+    background-color: transparent;
+    font-weight:bold;
+    font-size: 15px;
+    border-radius: 4ex;
+    cursor: pointer;
+}
+.nav-main .nav-menu li a:hover{
+    color:#4d929e;
+    background: #fff ;
+    box-shadow: 0 0 10px #fff, 0 0 30px #fff, 0 0 60px #fff;
+}
+.nav-main  .nav-manu-right li a i{
+   color: #fff;
+}
+/* Navegation */
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+}
+h1{
+    margin: 0;
+    font-size: 20px;
+    color:#4d929e;
+}
+.nav-brand{
+    width: 50px;
+}
+/*Nav Left*/
+.nav-main ul{
+  display: flex;
+}
+.nav-main ul li{
+    padding: 20px;
+}
+.nav-main ul li a{
+     color: #000;
+}
+/*CLAVE PARA QUE SE PEGUE HACIA EL ICONO.*/
+.nav-main ul.nav-menu{
+    flex: 1;
+}
+
+.menu:hover{
+    border-bottom: 2px solid #fff;
+}
+.hr-1{
+    margin-top: 20px;
+    margin-bottom:50px ;
+}
+.hr-2{
+    margin: 50px;
+}
+/*ShowCase*/
+.showcase{
+    width: 100%;
+    color: #b53e2a;
+    height: 550px;
+    background: url(./Imagenes/Importaciones.jpg) no-repeat;
+    background-position: center center;
+    background-size:cover ;
+    padding-bottom:50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.compra{
+    color: #fff;
+    background: #252525;
+    width: 120px;
+    height: 50px;
+    text-align: center ;
+    padding-top: 15px;
+    border: 1px solid #fff;
+}
+h2{
+    font-size: 50px;
+    font-family: 'whisper',
+    serif,monospace;
+    color: #fff;
+    top:0px;
+    margin: auto;
+    font-weight:bolder;
+}
+
+.compra:hover{
+   opacity: 0.8;
+}
+/*Our Products*/
+h3{
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    font-family: 'Tapestry',
+    cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+}
+/*Our Products*/
+.news-products h4 {
+    color: #fff;
+}
+.news-products a i{
+    color: #fff;
+}
+.news-products a  {
+    color: #fff;
+}
+.news-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    margin: 10px 0;
+}
+.news-products img {
+    width: 100%;
+    height: 280px;
+}
+.news-img{
+    object-fit: cover;
+}
+.news-products h4{
+    font-family: 'Cinzel',
+    serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.news-products a {
+    font-family: 'Cinzel',
+        serif;
+    padding: 10px 0 0;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;  
+}
+.news-products a:hover{
+    border-bottom: 2px solid ;
+}
+/*Banner*/
+.cards-banner-one{
+    width: 100%;
+    height: 550px;
+    background: url(./Imagenes/banner.jpg);
+    background-size:cover;
+    background-position: center center ;
+    opacity: calc(0.8);
+}
+
+.h2-dos
+{
+    color: black;
+    font-family: 'Tapestry',
+    cursive;
+    font-size: 40px;
+}
+.cards-banner-one .content{
+    width: 80%;
+    padding: 200px 0 0 30px;
+    color: #fff;
+}
+.cards-banner-one p{
+    font-size: 20px;
+    margin: 30px 0 20px 0 ;
+}
+/*Social*/
+
+
+/*Footer*/
+.footer-links{
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.footer-container{
+    width: 100%;
+    height: 250px;
+    background-color: #dbd7e0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%235395d7' fill-opacity='0.09' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr); 
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container ul{
+    margin: 0 auto;
+}
+.links{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.links a i {
+    font-size: 3rem;
+}
+.footer-container ul li{
+    line-height: 2;
+}
